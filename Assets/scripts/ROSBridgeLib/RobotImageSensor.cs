@@ -20,6 +20,7 @@ using UnityEngine;
 public class RobotImageSensor : ROSBridgeSubscriber {
 	
 	public new static string GetMessageTopic() {
+<<<<<<< HEAD
 
         return "/iRobot/camera/image_raw/compressed";
         
@@ -27,6 +28,10 @@ public class RobotImageSensor : ROSBridgeSubscriber {
         //return "/camera/compressed";
 
         
+=======
+        // return "/iRobot/camera/image_raw/compressed";
+        return "/camera/compressed";
+>>>>>>> 792e70ef7862b7f8d611ae04c31c3c0aad17fc74
     }  
 	
 	public new static string GetMessageType() {

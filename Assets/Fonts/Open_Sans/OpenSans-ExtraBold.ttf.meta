@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 300796790d5133d4d8d39a3415c14710
+=======
+guid: e5e5db5ea0d84a24d9e4cab78caebd17
+>>>>>>> 792e70ef7862b7f8d611ae04c31c3c0aad17fc74
 timeCreated: 1499883696
 licenseType: Free
 TrueTypeFontImporter:

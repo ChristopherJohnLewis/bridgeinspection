@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 07eb1ff13e675d846bcac62ec8369290
+=======
+guid: 5cf3aa9e03b9e584e9ac2fe6a1c850d5
+>>>>>>> 792e70ef7862b7f8d611ae04c31c3c0aad17fc74
 timeCreated: 1499711551
 licenseType: Free
 TrueTypeFontImporter:
@@ -12,7 +16,22 @@ TrueTypeFontImporter:
   fontName: Cabin
   fontNames:
   - Cabin
+<<<<<<< HEAD
   fallbackFontReferences: []
+=======
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 272dc69182ec62643b59a07e5127faa6, type: 3}
+  - {fileID: 12800000, guid: 07eb1ff13e675d846bcac62ec8369290, type: 3}
+  - {fileID: 12800000, guid: f75a4e532abcc1e4a950bc2caa31defa, type: 3}
+  - {fileID: 12800000, guid: 14e7c684e9087d74eae346f85a7df422, type: 3}
+  - {fileID: 12800000, guid: 112eca2759808d3409067b14ce330b03, type: 3}
+  - {fileID: 12800000, guid: 0ee488470977aaa49899c9001f1bc10f, type: 3}
+  - {fileID: 12800000, guid: 096548a7f4b8c4649a6d3f15764f1ae3, type: 3}
+  - {fileID: 12800000, guid: c64dc508b09a5db4caf4edc080a75808, type: 3}
+  - {fileID: 12800000, guid: 6558b36a5ea123248aacf9fe78a15bf5, type: 3}
+  - {fileID: 12800000, guid: 3c2994ab932775e41874896ad2e4a581, type: 3}
+  - {fileID: 12800000, guid: 2cd98e5c3b0187643ab4f4298e340ce1, type: 3}
+>>>>>>> 792e70ef7862b7f8d611ae04c31c3c0aad17fc74
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

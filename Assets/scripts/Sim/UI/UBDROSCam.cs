@@ -4,21 +4,22 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class UBDROSCam : MonoBehaviour {
-    private GameManager gameManager;
+    // private GameManager gameManager;
     private ROSManager rosManager;
 
     private RawImage rawImage;
 
     // Use this for initialization
     void Start () {
-        gameManager = GameManager.getInstance();
-        rosManager = gameManager.getROSManager();
+        // gameManager = GameManager.getInstance();
+        rosManager = ROSManager.getInstance();
 
         rawImage = this.gameObject.GetComponent<RawImage>();
     }
 	
 	// Update is called once per frame
 	void Update () {
+        rosManager.ROSRender();
     }
 
     private void OnGUI()
