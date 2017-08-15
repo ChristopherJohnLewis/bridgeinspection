@@ -1,0 +1,229 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:Library/FacebookSDK/Facebook.Unity.Settings.dll
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll"
+-r:Assets/Newtonsoft.Json.dll
+-r:Assets/Models/NGraph/Ngraph.dll
+-r:Assets/Models/NGraph/NgraphParser.dll
+-r:Assets/Scripts/ROSBridgeLib/websocket-sharp.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_5_6_1
+-define:UNITY_5_6
+-define:UNITY_5
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_RUNTIME_NAVMESH_BUILDING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:ENABLE_VIDEO
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+Assets/ColorMatch.cs
+Assets/LatLongTEST.cs
+Assets/Models/BridgeInspectorModels/AQUAS-Lite/Demo/SplineController/MathUtils.cs
+Assets/Models/BridgeInspectorModels/AQUAS-Lite/Demo/SplineController/SplineController.cs
+Assets/Models/BridgeInspectorModels/AQUAS-Lite/Demo/SplineController/SplineInterpolator.cs
+Assets/Models/BridgeInspectorModels/AQUAS-Lite/Scripts/AQUAS_Camera.cs
+Assets/Models/BridgeInspectorModels/AQUAS-Lite/Scripts/AQUAS_Reflection.cs
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Antialiasing.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Bloom.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/BloomAndFlares.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/BloomOptimized.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Blur.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/BlurOptimized.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/CameraMotionBlur.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ContrastEnhance.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ContrastStretch.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/CreaseShading.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/DepthOfField.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/EdgeDetection.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Fisheye.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/GlobalFog.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Grayscale.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ImageEffectBase.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ImageEffects.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/MotionBlur.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/NoiseAndGrain.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/NoiseAndScratches.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/PostEffectsBase.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/PostEffectsHelper.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Quads.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ScreenOverlay.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/SepiaTone.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/SunShafts.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/TiltShift.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Tonemapping.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Triangles.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Twirl.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs"
+"Assets/Models/BridgeInspectorModels/Realistic Terrain Collection/Other/Effects/ImageEffects/Scripts/Vortex.cs"
+Assets/Models/NGraph/Examples/NGraphSimpleDataExample.cs
+Assets/Models/NGraph/Examples/NGraphSimplePlayerScript.cs
+Assets/Models/NGraph/Examples/NGraphSimpleUpdateGraphScript.cs
+Assets/Models/NGraph/Examples/TransientExampleGraphScript.cs
+"Assets/Models/NGraph/Examples/Unity/01 - Interactive/InteractiveExampleUnityGraphScript.cs"
+"Assets/Models/NGraph/Examples/Unity/04 - Equation/NGraphUnityEquationExample.cs"
+Assets/Models/NGraph/Scripts/Internal/NGraph.cs
+Assets/Models/NGraph/Scripts/Internal/NGraphDataSeries.cs
+Assets/Models/NGraph/Scripts/Internal/NGraphMesh.cs
+Assets/Models/NGraph/Scripts/Internal/NGraphTakeScreenshot.cs
+Assets/Models/NGraph/Scripts/Internal/NGraphUtils.cs
+Assets/Models/NGraph/Scripts/PlotTypes/NGraphDataSeriesXy.cs
+Assets/Models/NGraph/Scripts/PlotTypes/NGraphDataSeriesXyEquation.cs
+Assets/Models/NGraph/Scripts/PlotTypes/NGraphDataSeriesXyLiveTransient.cs
+Assets/Models/NGraph/Scripts/Unity/UIUnityGraph.cs
+"Assets/Models/Realistic Terrain Collection/Other/Effects/ImageEffects/GlowEffect.cs"
+Assets/PositionFromLatLon.cs
+Assets/Scripts/GameManager.cs
+Assets/Scripts/LoadSceneOnClick.cs
+Assets/Scripts/MainMenuScript.cs
+Assets/Scripts/QuitOnClick.cs
+Assets/Scripts/ROSBridgeLib/DroneImageSensor.cs
+Assets/Scripts/ROSBridgeLib/FloorTile.cs
+Assets/Scripts/ROSBridgeLib/FollowCamera.cs
+Assets/Scripts/ROSBridgeLib/GPSMessage.cs
+Assets/Scripts/ROSBridgeLib/ROSBridgeMsg.cs
+Assets/Scripts/ROSBridgeLib/ROSBridgePublisher.cs
+Assets/Scripts/ROSBridgeLib/ROSBridgeSubscriber.cs
+Assets/Scripts/ROSBridgeLib/ROSBridgeWebSocketConnection.cs
+Assets/Scripts/ROSBridgeLib/ROSManager.cs
+Assets/Scripts/ROSBridgeLib/RobotImageSensor.cs
+Assets/Scripts/ROSBridgeLib/RobotTeleop.cs
+Assets/Scripts/ROSBridgeLib/SimpleJSON.cs
+Assets/Scripts/ROSBridgeLib/SimpleSmoothMouseLook.cs
+Assets/Scripts/ROSBridgeLib/Turtle1ColorSensor.cs
+Assets/Scripts/ROSBridgeLib/Turtle1Pose.cs
+Assets/Scripts/ROSBridgeLib/Turtle1ServiceResponse.cs
+Assets/Scripts/ROSBridgeLib/TurtlesimViewer.cs
+Assets/Scripts/ROSBridgeLib/geometry_msgs/TwistMsg.cs
+Assets/Scripts/ROSBridgeLib/geometry_msgs/Vector3Msg.cs
+Assets/Scripts/ROSBridgeLib/sensor_msgs/CompressedImageMsg.cs
+Assets/Scripts/ROSBridgeLib/sensor_msgs/GeoPointMsg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/HeaderMsg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/Int32Msg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/Int32MultiArrayMsg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/Int64Msg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/Int64MultiArrayMsg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/Int8Msg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/Int8MultiArrayMsg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/MultiArrayDimensionMsg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/MultiArrayLayoutMsg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/StringMsg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/TimeMsg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/UInt16Msg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/UInt16MultiArrayMsg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/UInt32Msg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/UInt32MultiArrayMsg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/UInt64Msg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/UInt64MultiArrayMsg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/UInt8Msg.cs
+Assets/Scripts/ROSBridgeLib/std_msgs/UInt8MultiArrayMsg.cs
+Assets/Scripts/ROSBridgeLib/turtlesim/ColorMsg.cs
+Assets/Scripts/ROSBridgeLib/turtlesim/PoseMsg.cs
+Assets/Scripts/ROSBridgeLib/turtlesim/VelocityMsg.cs
+Assets/Scripts/Sim/Config/ConfigManager.cs
+Assets/Scripts/Sim/Config/Settings.cs
+Assets/Scripts/Sim/GameObject/UBDControl.cs
+Assets/Scripts/Sim/GameObject/movementControl.cs
+Assets/Scripts/Sim/GameObject/playerControlSelection.cs
+Assets/Scripts/Sim/Test/angularVelocity.cs
+Assets/Scripts/Sim/Test/camView.cs
+Assets/Scripts/Sim/Test/droneGraphScript.cs
+Assets/Scripts/Sim/Test/ubdVelocity.cs
+Assets/Scripts/Sim/UI/OptionsMenuManager.cs
+Assets/Scripts/Sim/UI/UBDROSCam.cs
+Assets/Scripts/Sim/UI/UBDSpeedPlotTransient.cs
+Assets/Scripts/Sim/UI/UIManager.cs
+Assets/Scripts/Sim/UI/changeTextColor.cs
+Assets/Scripts/Sim/UI/testPanelScript.cs
+Assets/TerrainComposer/Scripts/MultiTerrainBoost.cs
+Assets/TerrainComposer/Scripts/rtp_functions.cs
+Assets/infoReadout.cs
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity

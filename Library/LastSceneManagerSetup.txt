@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/ROS_Bridge_AGZ.unity
+  isLoaded: 1
+  isActive: 1
