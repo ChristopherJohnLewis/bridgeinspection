@@ -1,0 +1,22 @@
+<launch>
+	<!-- 
+		Gaetano-
+		
+		roscore starts whenever a launch file is called, so not needed
+		The include is where the rosbridge stuff happens (I think it activates it)
+		The first node is where the rosbag is being played in raw
+		The second node is where the rosbag is being converted into compressed from raw
+		To pass in an argument put the args name followed by := and then the value, in the case of
+			path it would be: path:="/home/chrislewis/Downloads/AGZ_subset/AGZ.bag" or whaterver your file path is
+
+		-Chris
+	-->
+
+	<include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" />
+
+	<arg name="path" default="/home/chrislewis/Downloads/AGZ_subset/AGZ.bag" />
+	
+	<node name="player" pkg="rosbag" type="play" output="screen" args="--l $(arg path)"/>
+	<node name="republish" pkg="image_transport" type="republish" output="screen" args="raw in:=/camera/image compressed out:=/camera"/>
+
+</launch>
